@@ -6,12 +6,6 @@ const MealCard = ({ imageUrl, title, onClick }) => {
       <Image src={imageUrl} wrapped ui={false} />
       <Card.Content>
         <Card.Header>{title}</Card.Header>
-        {/* <Card.Meta>
-          <span className="date">{type}</span>
-        </Card.Meta> */}
-        {/* <Card.Description>
-          Matthew is a musician living in Nashville.
-        </Card.Description> */}
       </Card.Content>
     </Card>
   );
